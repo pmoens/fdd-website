@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav {
+    background-color: #f8cecc;
+    text-align: right;
+    border: 1px solid #dd9a9a;
+}
+
+nav a {
+    border-right: 1px solid #cfb7b6;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+.image-header {
+    background-color: #fff2cc;
+    padding: 10px 0;
+    border: 1px solid #ead9a6;
+    display: flex;
+}
+
+.image-header .text {
+    width: 50%;
+    padding: 0 50px;
+}
+
+.image-header img {
+    width: 25%;
+    border: 1px solid;
+    margin: 10px 25px 0;
+}
+
+.carousel {
+    background-color: #d5e8d4;
+    border: 1px solid #aecf9f;
+}
+
+.carousel .block {
+    border: 1px solid #6d776c;
+    background-color: white;
+    display: inline-block;
+    width: calc(25% - 2px); /* Gebruik calc() omdat de border van 2 x 1 pixel er nog af moet */
+    margin: 5% 2%;
+    padding: 2%;
+    text-align: center;
+}

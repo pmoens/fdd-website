@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="./scripts/wc-menu.js"></script>
+    </head>
+    <body>
+        <wc-menu></wc-menu>
+        <main>
+            <div class="image-header">
+                <div class="text">
+                    <h1>Name XYZ</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <img src="images/banner.png" alt="Image" />
+            </div>
+            <div class="carousel">
+                <div class="block">
+                    <h1>Project A</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="block">
+                    <h1>Kwaliteit X</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="block">
+                    <h1>Ervaring Z</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div>
+                <form>
+                    <label for="fname">Firstname</label>
+                    <input type="text" id="fname" name="firstname" />
+                    
+                    <label for="lname">Lastname</label>
+                    <input type="text" id="lname" name="lastname" />
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email"/>
+                    
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" onchange="validatePhone(this)"/>
+                </form>
+            </div>
+            <div id="weather"></div>
+        </main>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
